@@ -11,9 +11,9 @@
 - YOLO 塑料瓶训练
 
 ## 进度
-- [ ] Ubuntu 双系统
+- [✅] Ubuntu 双系统
 - [ ] Linux 基础
 - [ ] SolidWorks
-- [ ] GitHub
+- [✅] GitHub
 - [ ] YOLO 训练
 - [ ] 简历与面试
