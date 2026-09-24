@@ -12,7 +12,7 @@
 
 ## 进度
 - [✅] Ubuntu 双系统
-- [ ] Linux 基础
+- [✅] Linux 基础
 - [ ] SolidWorks
 - [✅] GitHub
 - [ ] YOLO 训练
