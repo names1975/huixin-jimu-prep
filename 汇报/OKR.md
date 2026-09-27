@@ -30,8 +30,40 @@
 - 证据：嗯，你都进来了，就不需要给你证据了吧。
 
 ### KR5：完成 YOLO 塑料瓶训练
-- 进度：
-- 证据：训练曲线、检测图/视频
+    O（目标）：在 Ubuntu 22.04 环境下，独立完成基于 YOLOv11 的塑料瓶数据集训练与推理。
+
+    KR1（环境配置与硬件排障）：
+
+        完成双系统 Ubuntu 安装及 Miniconda 虚拟环境搭建。
+
+        踩坑记录1：RTX 5060 驱动安装失败（nvidia-smi 报 No devices were found）。
+
+            排查过程：查阅日志发现需要 open 内核模块，安装 610-open 后依旧报错。
+
+            解决方案：修改 GRUB 启动参数 acpi_osi=Linux 绕过联想 SBIOS 兼容性问题，成功加载 GPU。
+
+        踩坑记录2：训练中断与防休眠设置。
+
+            问题：离开电脑后系统自动休眠导致训练进程被杀。
+
+            解决：配置系统电源选项，以及使用 nohup 命令让训练在后台抗干扰运行。
+
+    KR2（数据准备）：
+
+        从 Kaggle 下载 8000 张塑料瓶数据集，修改 data.yaml 指定绝对路径，并将文件夹重命名为纯英文无空格路径。
+
+    KR3（模型训练与效果验证）：
+
+        使用 yolo train 成功跑完 50 轮
+
+        成果展示：<img width="2560" height="1600" alt="截图 2026-09-27 16-34-16" src="https://github.com/user-attachments/assets/9772d6f9-130e-4c36-a593-9d28f31f50d3" />
+<img width="2560" height="1600" alt="截图 2026-09-27 16-33-54" src="https://github.com/user-attachments/assets/bd4399c9-8692-42a4-bb6d-39986517a45c" />
+<img width="2560" height="1600" alt="截图 2026-09-27 16-33-29" src="https://github.com/user-attachments/assets/2891fcf4-a662-4fcc-8cb0-28644d191172" />
+<img width="2560" height="1600" alt="截图 2026-09-27 16-32-46" src="https://github.com/user-attachments/assets/ef377817-a0d9-4f94-b1bd-10b56a7453c5" />
+<img width="2560" height="1600" alt="截图 2026-09-27 16-32-23" src="https://github.com/user-attachments/assets/170157de-c90b-4b7f-a861-19778e76b562" />
+<img width="2560" height="1600" alt="截图 2026-09-27 16-30-46" src="https://github.com/user-attachments/assets/4df8d138-fc33-4724-92b3-0f8afc0f8f3d" />
+<img width="739" height="671" alt="截图 2026-09-27 16-27-41" src="https://github.com/user-attachments/assets/48090bcd-2a35-4939-bc17-0aa3b69916ca" />
+
 
 ## 问题与解决
 - 问题：
