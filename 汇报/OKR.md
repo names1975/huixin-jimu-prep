@@ -13,7 +13,14 @@
 <img width="1920" height="1080" alt="wx_camera_1790254484885" src="https://github.com/user-attachments/assets/66267d32-5f59-4a5f-a378-9c9538261df7" />
 <img width="4064" height="3048" alt="IMG_20260924_232404" src="https://github.com/user-attachments/assets/2df8332a-d63d-4afa-96be-21dc036070ed" />
 <img width="1455" height="341" alt="mmexport1790254840211" src="https://github.com/user-attachments/assets/299c539f-b5f2-41db-aa2d-572a651eba04" />
-3.在试图给蓝牙装开机自启，以及试图无需密码登录的时候，乌班图系统崩了，反反复复修了几次，结果进去之后网卡驱动没了。又试了 USB 连接，以及试图用 U 盘重装驱动，但是不知道为什么这次驱动与乌班图系统又不兼容，导致现在网卡驱动还是装不好。只能重装系统，导致数据丢失
+3.在试图给蓝牙装开机自启，以及试图无需密码登录的时候，乌班图系统崩了，反反复复修了几次，结果进去之后网卡驱动没了。又试了 USB 连接，以及试图用 U 盘重装驱动，但是不知道为什么这次驱动与乌班图系统又不兼容，导致现在网卡驱动还是装不好。只能重装系统，导致数据丢失。
+  <img width="4064" height="3048" alt="IMG_20260930_165641" src="https://github.com/user-attachments/assets/4bae0737-b538-4a53-9e19-8ca33b6cca58" />
+<img width="4064" height="3048" alt="IMG_20260930_153821" src="https://github.com/user-attachments/assets/1e93eb36-f616-41bf-a6d7-3853b0d6bd29" />
+<img width="4064" height="3048" alt="IMG_20260930_154840" src="https://github.com/user-attachments/assets/00601c31-34bf-4a8a-8495-1aa657414be6" />
+<img width="4000" height="3000" alt="IMG_20260930_154433" src="https://github.com/user-attachments/assets/d0aba44b-9db6-4d59-8e4d-24dcdcd05c51" />
+<img width="4064" height="3048" alt="IMG_20260930_153352" src="https://github.com/user-attachments/assets/58a9783f-3c58-4f27-87d8-198ab4dc72f3" />
+
+
 
 ### KR2：完成 Linux 基本使用
 - 进度：学了一些基础命令，包括目录、文件等 Linux 必备的知识
